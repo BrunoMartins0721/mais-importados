@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "Thin";
+    src: url(../fonts/Urbanist-Thin.ttf);
+}
+
+@font-face {
+    font-family: "ThinItalic";
+    src: url(../fonts/Urbanist-ThinItalic.ttf);
+}
+
+@font-face {
+    font-family: "Regular";
+    src: url(../fonts/Urbanist-Regular.ttf);
+}

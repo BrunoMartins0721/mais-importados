@@ -1,0 +1,47 @@
+@media screen and (max-width: 100%) {
+    #hero {
+      height: 300px;
+    }
+  
+    #slogan span {
+      font-size: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    #hero-text p {
+      font-size: 24px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .white-title,
+    .black-title {
+      font-size: 36px;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .white-description,
+    .black-description {
+      font-size: 24px;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .product {
+      animation: none;
+      opacity: 1;
+      width: 90%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  
