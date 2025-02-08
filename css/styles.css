@@ -104,22 +104,32 @@
     align-items: center;
   }
 
-  #caixa-marketing-white{
+  #caixa-marketing-white {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    gap: 20px;
+    animation: slide-left 10s linear infinite;
+}
+  .marketing-white .product {
+    width: auto;
+    max-height: 200px;
+    opacity: 1;
+    animation: slide-left 5s linear infinite;
+    animation: none;
   }
   
-  .marketing-black:hover .product,
+  .marketing-black:hover .product{
+        animation: fade-in 2.5s;
+    animation-fill-mode: forwards;
+  }
   .marketing-white:hover .product{
     animation: fade-in 2.5s;
     animation-fill-mode: forwards;
   }
   
   .marketing-white {
-    background-color: #fff;
-  }
-  
+    overflow: hidden;
+    white-space: nowrap;
+}
   .marketing-black {
     background: var(--marketing-black-background);
   }
@@ -155,7 +165,10 @@
     width: 30%;
     opacity: 0;
     animation: fade-out 2.5s;
+    width: auto;
+    max-height: 200px; /* Ajuste o tamanho conforme necessário */
   }
+  
   
   .know-more {
     margin: 40px 0;
